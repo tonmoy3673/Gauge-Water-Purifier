@@ -1,8 +1,9 @@
-import img from "../assets/mobile-landing";
+import mobileLandingImage from "@/assets/mobile-landing.webp";
+
 const Hero = () => {
   return (
-    <div className="">
-      <img src={img} alt="happy man"></img>
+    <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center py-10 bg-[#1c1c3a] h-screen">
+      <img src={mobileLandingImage} alt="happy man" className="w-10/12"></img>
       <div>
         <h1>
           Gauge Water Purifier
