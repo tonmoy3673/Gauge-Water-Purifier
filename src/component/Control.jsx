@@ -1,10 +1,11 @@
 import water from "@/assets/water-lg.webp";
+import { FaCheckCircle } from "react-icons/fa";
 const Control = () => {
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1 py-16 mt-10 items-center justify-items-center px-6">
       <div className="mb-8 px-3">
         <div className="text-center">
-          <button className="p-3 mb-4 rounded-full font-semibold text-[#4b5563] text-lg">
+          <button className="p-4 mb-4 pointer-events-none rounded-full font-semibold text-[#4b5563] text-lg shadow-lg shadow-blue-400/50">
             Customers Needs Above All Else
           </button>
         </div>
@@ -22,9 +23,14 @@ const Control = () => {
           customer. The first step is to ensure there are zero service delays.
         </p>
         <div>
-          <h3 className="font-semibold text-xl lg:text-align">
-            Smart Water Purifier With Self Servicing Capability
-          </h3>
+          <div className="flex items-center">
+            <h3 className="font-semibold text-xl">
+              <FaCheckCircle />
+            </h3>
+            <h3 className="font-semibold text-xl lg:text-align ms-3">
+              Smart Water Purifier With Self Servicing Capability
+            </h3>
+          </div>
           <p className="text-base lg:text-start py-4 text-[#6b6b6b]">
             Say goodbye to the hassle of scheduling a technician for purifier
             maintenance with our.
@@ -32,9 +38,14 @@ const Control = () => {
           </p>
         </div>
         <div>
-          <h3 className="font-semibold text-xl lg:text-align">
-            Compensation For Service Delays
-          </h3>
+          <div className="flex items-center">
+            <h3 className="font-semibold text-xl">
+              <FaCheckCircle />
+            </h3>
+            <h3 className="font-semibold text-xl lg:text-align ms-3">
+              Compensation For Service Delays
+            </h3>
+          </div>
           <p className="text-base lg:text-start py-4 text-[#6b6b6b]">
             You are entitled to a compensation of <strong>100 Rs/Day</strong> if
             service is delayed for more than 24 hours.
@@ -46,7 +57,7 @@ const Control = () => {
           </button>
         </div>
       </div>
-      <img src={water}></img>
+      <img src={water} className="hover:-mt-6"></img>
     </div>
   );
 };

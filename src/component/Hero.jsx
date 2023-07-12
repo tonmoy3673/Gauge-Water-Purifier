@@ -6,7 +6,7 @@ const Hero = () => {
       <img
         src={mobileLandingImage}
         alt="happy man"
-        className="lg:w-10/12 w-full"
+        className="lg:w-10/12 w-full hover:-mt-6"
       ></img>
       <div className="text-center">
         <h1 className="text-white text-6xl font-semibold capitalize	">
