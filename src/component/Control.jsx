@@ -87,7 +87,11 @@ const Control = () => {
           </button>
         </div>
       </div>
-      <img src={water} className="hover:-translate-y-2"></img>
+      <img
+        src={water}
+        alt="man drinking water"
+        className="hover:-translate-y-2"
+      ></img>
     </div>
   );
 };
