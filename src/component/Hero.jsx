@@ -2,7 +2,7 @@ import mobileLandingImage from "@/assets/mobile-landing.webp";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center py-10 bg-[#1c1c3a] h-screen">
+    <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center py-10 bg-[#1c1c3a] h-screen rounded-md">
       <img
         src={mobileLandingImage}
         alt="happy man"
