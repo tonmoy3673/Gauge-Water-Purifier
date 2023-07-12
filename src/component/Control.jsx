@@ -3,6 +3,11 @@ const Control = () => {
   return (
     <div className="grid lg:grid-cols-2 grid-cols-1 py-16 mt-10 items-center justify-items-center px-6">
       <div className="mb-8 px-3">
+        <div className="text-center">
+          <button className="p-3 mb-4 rounded-full font-semibold text-[#4b5563] text-lg">
+            Customers Needs Above All Else
+          </button>
+        </div>
         <h1 className="font-semibold text-5xl">
           Take Control <br />
           <span className="text-[#ff5f55]">
