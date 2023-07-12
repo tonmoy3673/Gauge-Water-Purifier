@@ -22,7 +22,9 @@ const Hero = () => {
           Fully automatic water purifier provides the highest water savings
           while ensuring a seamless service experience.
         </h5>
-        <button className="btn">Take a product Tour</button>
+        <button className="btn bg-blue-500 p-5 rounded-full text-white text-base font-semibold">
+          Take a product Tour
+        </button>
         <p className="py-8 text-center text-[#b5b5b5]">
           Experience Convenience Like Never Before With Our Smart Water Purifier
         </p>
