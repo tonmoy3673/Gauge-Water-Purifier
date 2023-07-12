@@ -2,11 +2,11 @@ import mobileLandingImage from "@/assets/mobile-landing.webp";
 
 const Hero = () => {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center py-10 bg-[#1c1c3a] h-screen rounded-br-3xl rounded-bl-3xl">
+    <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center py-10 bg-[#1c1c3a] rounded-br-3xl rounded-bl-3xl">
       <img
         src={mobileLandingImage}
         alt="happy man"
-        className="lg:w-10/12 w-full hover:-mt-6"
+        className="lg:w-10/12 w-full mb-4 hover:-translate-y-2"
       ></img>
       <div className="text-center">
         <h1 className="text-white text-6xl font-semibold capitalize	">
