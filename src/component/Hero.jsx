@@ -18,10 +18,10 @@ const Hero = () => {
           </span>
           To RO <br /> Service Pain
         </h1>
-        <h5 className="py-8 text-center text-[#b5b5b5]">
+        <h2 className="py-8 text-center text-[#b5b5b5]">
           Fully automatic water purifier provides the highest water savings
           while ensuring a seamless service experience.
-        </h5>
+        </h2>
         <button className="btn bg-blue-500 p-5 rounded-full text-white text-lg font-semibold">
           Take a product Tour
         </button>
